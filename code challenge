@@ -1,0 +1,31 @@
+
+
+Speed Demerit Point Calculator
+Description
+This program takes as input the speed of a car and calculates demerit points for speeding violations. If the speed is less than 70 km/h, it prints "Ok". Otherwise, for every 5 km/h above the speed limit (70 km/h), it gives the driver one demerit point and prints the total number of demerit points.
+
+How to Use
+Input Speed: Run the program and follow the prompts to enter the speed of the car.
+
+View Demerit Points: The program will then display the total number of demerit points, if any.
+
+Example
+
+Enter the speed of the car (km/h): 80
+Demerit Points: 2
+
+Enter the speed of the car (km/h): 65
+Ok
+Prerequisites
+This program runs on any system with a JavaScript runtime environment installed.
+How to Run
+Clone the repository to your local machine:
+
+
+git clone https://github.com/your-username/speed-demerit-calculator.git
+Navigate to the project directory:
+
+cd speed-demerit-calculator
+Run the program:
+
+node demerit_calculator.js
